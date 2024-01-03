@@ -1,1 +1,14 @@
 /* write your css here */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Other custom styles or Tailwind utility classes */
+/* ... */
+html ,body {
+    overflow-x: hidden;
+}
+
+.homepage_bg {
+    background: url("../src/assets/Images/bghome.svg");
+}
