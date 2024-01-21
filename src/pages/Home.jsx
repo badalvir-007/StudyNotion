@@ -12,6 +12,16 @@ import ExploreMore from "../components/core/HomePage/ExploreMore";
 
 
 const Home = () => {
+  const products = [
+    {
+      name: 'Olympus Photo Camera',
+      image: 'https://i.imgur.com/Z7eqMnj.jpg',
+      rating: 4,
+      ratingCount: 4585,
+      price: 495.0,
+    },
+    // Add more products as needed
+  ];
   return (
     <div>
       {/* Section1 */}
@@ -172,6 +182,7 @@ const Home = () => {
       
 
       {/* Footer */}
+     
     </div>
   );
 };
