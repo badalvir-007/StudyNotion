@@ -117,7 +117,7 @@ const Navbar = () => {
             {/* login,signin,dashboard */}
             <div className='flex gap-4 items-center'>
                 {
-                    user && user?.accountType != "Insutructor" && (
+                    user && user?.accountType !== "Insutructor" && (
                         <Link to="/dashboard/cart" className='relative'>
                             <FiShoppingCart />
                             {

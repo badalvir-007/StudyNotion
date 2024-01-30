@@ -9,6 +9,7 @@ import LearningLanguageSection from "../components/core/HomePage/LearningLanguag
 import TimeLineSection from "../components/core/HomePage/TimeLineSection";
 import InstructorSection from "../components/core/HomePage/InstructorSection";
 import ExploreMore from "../components/core/HomePage/ExploreMore";
+import Footer from "../components/common/Footer";
 
 
 const Home = () => {
@@ -182,7 +183,7 @@ const Home = () => {
       
 
       {/* Footer */}
-     
+     <Footer />
     </div>
   );
 };
